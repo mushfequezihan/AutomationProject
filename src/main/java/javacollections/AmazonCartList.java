@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AmazonCartList {
-
+	
 	public static void main(String[] args) {
 
 		//create a Array List 

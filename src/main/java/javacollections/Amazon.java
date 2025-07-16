@@ -3,6 +3,8 @@ package javacollections;
 import java.util.ArrayList;
 import java.util.List;
 
+// im feature
+
 //class
 public class Amazon {
 	
