@@ -6,7 +6,7 @@ import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Set;
 
-public class Time_03 {
+public class R03_Time {
 
 	public static void main(String[] args) {
 		

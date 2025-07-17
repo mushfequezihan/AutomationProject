@@ -3,7 +3,7 @@ package javacollections;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AmazonCartList_01 {
+public class E01_AmazonCartList {
 	
 	public static void main(String[] args) {
 

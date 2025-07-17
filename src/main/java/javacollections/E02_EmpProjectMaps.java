@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class EmpProjectMaps_02 {
+public class E02_EmpProjectMaps {
 
 	public static void main(String[] args) {
 

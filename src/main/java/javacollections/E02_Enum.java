@@ -1,6 +1,6 @@
 package javacollections;
 
-public class Enum_02 {
+public class E02_Enum {
 
 	public static void main(String[] args) {
 
