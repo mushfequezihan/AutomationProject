@@ -2,7 +2,9 @@ package javacollections;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ListSetIterate {
 
@@ -25,11 +27,16 @@ public class ListSetIterate {
 		System.out.println("");
 		
 		
+		
 		// repeating values list
 		List<Integer> repeatingValues = new ArrayList<>();
 		
 		//duplicate values list
 		List<Integer> duplicateValues = new ArrayList<>();
+		
+		//Using Set - print only the unique number which duplicating 
+		Set<Integer> dupValuesSet = new HashSet<Integer>();
+		
 		
 		
 		//iterate through list for repeating and duplicate values
@@ -50,10 +57,21 @@ public class ListSetIterate {
 			if (Collections.frequency(values, integer) > 1 && !duplicateValues.contains(integer)) {
 				duplicateValues.add(integer);
 			}
+			
+			/*
+			 * Simple way - using Set to print only duplicate values
+			 * Set allows only unique values to store, removes any duplicates, faster search on list
+			 */
+			dupValuesSet.addAll(repeatingValues);
+			
 		}
 		
 		System.out.println("New list with Repeating Values: " + repeatingValues);
 		System.out.println("New list with Duplicate Values: " + duplicateValues);
+		System.out.println("");
+		System.out.println("Using Set - duplicate values: " + dupValuesSet);
+		
+		
 	}
 
 }
