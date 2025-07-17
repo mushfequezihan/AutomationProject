@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class ListSetIterate {
+public class ListSetIterate_02 {
 
 	public static void main(String[] args) {
 
