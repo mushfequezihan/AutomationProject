@@ -1,5 +1,8 @@
 package javacollections;
 
+//Declare ENUM as needed -- user defined data type
+enum cc {OFFER5, OFFER3, OFFER2}
+
 public class E02_Enum {
 
 	public static void main(String[] args) {
@@ -96,5 +99,4 @@ class Bill{
 	}
 }
 
-//Declare ENUM as needed -- user defined data type
-enum cc {OFFER5, OFFER3, OFFER2}
+

@@ -13,6 +13,7 @@ public class E02_EmpProjectMaps {
 	public static void main(String[] args) {
 
 		// hash map with employee data
+		// linked hash map or linked hash set for sequence storing or just hash map or hash set
 		Map<String, Integer> empProject = new LinkedHashMap<>();
 		empProject.put("EMP 101", 5);
 		empProject.put("EMP 102", 2);
